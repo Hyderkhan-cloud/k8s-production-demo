@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: production-demo-config
+  namespace: production-demo
+
+data:
+  APP_NAME: "Kubernetes Production Demo"
+  APP_ENV: "production"
+  APP_VERSION: "v1"
